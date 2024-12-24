@@ -11,8 +11,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;   
-    
+    height:100vh;  
     /* vh stands for viewport height */
     /* It ensures that the form takes up 100% of the height of the browser window, regardless of the screen size. 
     It makes it more responsive   */
@@ -20,11 +19,14 @@ body{
 }
 
 .form{
-    background-color:white;
+    background-color:rgb(30, 4, 4);
     width:400px;
-    border-radius:8px;
+    border-radius:38px;
     padding:20px 40px;
     box-shadow: 0 10px 25px rgba(92,99,105,.2);
+    height: 500px;
+    
+
 
     
     
@@ -32,6 +34,7 @@ body{
 .title{
     font-size:50px;
     margin-bottom: 50px;
+    color: white;
 }
 
 .inputContainer{
@@ -50,7 +53,7 @@ body{
     height:100%;
     width:100%;
     border:1px solid #DADCE0;
-    border-radius:7px;
+    border-radius:17px;
     font-size:16px;
     padding:0px 20px;
     outline:none;
@@ -70,7 +73,7 @@ body{
     top:15px;
     left:15px;
     padding:0 4px;
-    background-color:white;
+    
     color:#DADCE0;
     font-size:16px;
     transition: 0.5s;
@@ -85,7 +88,7 @@ body{
    padding:15px 30px;
     border:none;
     background-color:purple;
-    border-radius:6px;
+    border-radius:20px;
     color:white;
     cursor:pointer;
     font-size:16px;
@@ -95,6 +98,7 @@ body{
 .submitBtn:hover{
     background-color:#9867C5;
     transform:translateY(-2px);
+    
 }
     
 .input:focus + .label{
